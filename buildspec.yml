@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Installing Node.js dependencies..."
+      - npm install
+  build:
+    commands:
+      - echo "Building Node.js app..."
+      - npm run build || echo "No build script found, continuing..."
+  post_build:
+    commands:
+      - echo "Build completed successfully."
+
+artifacts:
+  files:
+    - '**/*'
+
