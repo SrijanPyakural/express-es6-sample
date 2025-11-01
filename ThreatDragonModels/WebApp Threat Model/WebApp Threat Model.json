@@ -1,0 +1,16 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "WebApp Threat Model",
+    "owner": "Srijan Pyakural",
+    "description": "This model analyses a basic web application composed of a User Interface, Web Application, and Database. It identifies potential threats using the STRIDE methodology and suggests mitigations.\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "diagramTop": 2,
+    "reviewer": "22526177",
+    "threatTop": 0
+  }
+}
